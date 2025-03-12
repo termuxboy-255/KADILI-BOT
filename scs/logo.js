@@ -4,7 +4,7 @@ adams({ nomCom: "hacker",
     categorie: "Logo", reaction: "👨🏿‍💻" }, async (origineMessage, zk, commandeOptions) => {
     const { prefixe, arg, ms, repondre } = commandeOptions;
     if (!arg || arg == "") {
-        repondre("*__Exemple : * " + prefixe + "hacker Ibrahim");
+        repondre("*__Exemple : * " + prefixe + "hacker Kadili");
         return;
     }
     try {
