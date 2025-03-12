@@ -71,7 +71,7 @@
      "PM_PERMIT" :
      {
       "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
-      "value":"no",
+      "value":"yes",
       "required":false
     }
     ,
@@ -92,7 +92,7 @@
     "PUBLIC_MODE":
     {
       "description":"type yes to put your  kadili bot on public mode or no to put it on private mod",
-      "value":"yes",
+      "value":"no",
       "required":false
     }
 	,
@@ -122,7 +122,7 @@
   },
     "SESSION_ID":{
     "description":"put your session ID , the code you received from from Kadili TECH site",   
-      "value":"",
+      "value":"eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVUIyVFMwK3pKeEFsbm42d2ZWTnJHU3BaYVdFYm9qeEhFbGt0RUdLUW9VOD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSytRSGxCdDgvdjlQOGpWZTNCWTAvdHpFUC80b0xQRzBLcWtzcE8zbFNtYz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ3SGs5TmxtMzJweG5VMWo3T0xDZmtWcHZDUnNsWDZwcTRNd3lRQVA0akZnPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJLRzBsckJVeXVOY082UDcvVlp5UVRvMUdIOGtBM3pCQkFHaGhUZTJieWp3PSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IldHdFNCRHI5MVYrN25GNFhuWm00TXB0N3dWZkVOOG1nV21QZUhFcEI4WEU9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjUrTjE2U3J6UkQwbkVIV2pQdjNLOGEyVlc1MmNqQmpMcUhLQTF3U3ZhVVE9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFp…",
      "required":true
   },
     "WARN_COUNT":
@@ -139,7 +139,7 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"",
+    "value":"3",
     "required": false
   },
   "ANTIDELETE" : {
