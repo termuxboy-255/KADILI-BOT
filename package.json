@@ -5,13 +5,7 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "test": "node index.js",
-    "s": "node index.js",
-    "index": "pm2 start index.js --attach",
-    "xmd": "pm2 start xmd.js --attach",
-    "c": "tsc",
-    "start": "node index.js",
-    "web": "node index.js"
+    "start": "pm2 start index.js --name kadili-bot"
   },
   "keywords": [
     "bot",
